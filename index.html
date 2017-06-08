@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link href="https://fonts.googleapis.com/css?family=Eczar|Share+Tech+Mono" rel="stylesheet">
+  <link rel="stylesheet" href="css/master.css">
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  <script type="text/javascript" src="script.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <div class="header">
+      <p class="h_i">Einar Andersen</p>
+      <button id="info_button" onclick="alert('Einar Andersen\neinarbesti@gmail.com\nStudies Graphic Design at ArtEZ in the Netherlands')">Info</button>
+    </div>
+    <div class="content">
+      <div class="left">
+        <div class="year">
+          2016
+        </div>
+        <div class="">
+          <button type="button" name="button" onclick="divVisibility('Div1');">Untitled (Home)</button>
+        </div>
+        <div class="">
+          <button type="button" name="button" onclick="divVisibility('Div2');">Mobius Limbs</button>
+        </div>
+        <div class="">
+          <button type="button" name="button" onclick="divVisibility('Div3');">TCEOUA</button>
+        </div>
+        <div class="">
+          <button type="button" name="button" onclick="divVisibility('Div4');">Cycle 13999</button>
+        </div>
+        <div class="">
+          <button type="button" name="button" onclick="divVisibility('Div5');">Untitled (Dada)</button>
+        </div>
+        <div class="">
+          <button type="button" name="button" onclick="divVisibility('Div6');">So Close (So Far)</button>
+        </div>
+      </div>
+      <div class="right">
+        <div class="example" id="Div1" style="display: none">
+          <h1>Untitled (Home)</h1>
+          <img src="images/Untitled/Untitled1.jpg" alt="My home">
+          <img src="images/Untitled/Untitled2.jpg" alt="My home">
+          <img src="images/Untitled/Untitled4.jpg" alt="My home">
+          <img src="images/Untitled/Untitled3.jpg" alt="My home">
+          <img id="mat" src="images/Untitled/mat2.jpg" alt="My home">
+          <p class="exampletext">
+            A picture of a footstep on the moon reminds of my youth when I went out in the morning and stepped in freshly fallen snow. I realized the moon and Iceland were eerily similar in a strange and calming way. Suddenly the moon felt like home. The only thing
+            inbetween me and my home is the mat.
+
+          </p>
+        </div>
+
+        <div class="example" id="Div2" style="display: none">
+          <h1>Mobius Limbs</h1>
+          <img src="images/Mobius/mobius1.jpg" alt="">
+          <img src="images/Mobius/mobius2.jpg" alt="">
+          <img src="images/Mobius/mobius3.jpg" alt="">
+          <p>A project where I designed posters for a fictional band. The band, called Mobius limbs, is a band that mixes Goa Trance and New Wave. The band promote an anti capitalistic message with a spiritual twist. Most of the concerts are a spontaneous
+            event filled with out of this world experience. <br> The posters are silk printed in A2 on existing posters.
+
+          </p>
+        </div>
+        <div class="example" id="Div3" style="display: none">
+          <h1>The Complete Encyclopedia of Unfinished Art</h1>
+          <img src="images/EC/ec1.jpg" alt="">
+          <img src="images/EC/ec2.jpg" alt="">
+          <img src="images/EC/ec3.jpg" alt="">
+          <img src="images/EC/ec4.jpg" alt="">
+
+          <p>After browsing the Metropolitian Museum on archive.org I noticed that there were images that had not uploaded properly or were corrupt in any other way. I collected and catagorized them and from there created an encyclopedia of unfinished art.</p>
+        </div>
+        <div class="example" id="Div4" style="display: none">
+          <h1>Cycle 13999</h1>
+          <iframe src="https://player.vimeo.com/video/220717420?color=ffffff&title=0&byline=0&portrait=0" width="960" height="640" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+          <p>A story of a woman stuck in a dystopian world ruled by computers, where days no longer exist. Only cycles. Cycles of work. One cycle she sees a flash of text saying “You will be the queen of the stars”. It sparks a thought in her head. She tries
+            to get out but as she tries to fight the computers in her mind she goes insane. </p>
+        </div>
+        <div class="example" id="Div5" style="display: none">
+          <h1>Untitled (Dada)</h1>
+          <iframe src="https://player.vimeo.com/video/220716402?color=ffffff&title=0&byline=0&portrait=0" width="80%" height="80%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+          <iframe id="website" src="websites/DadaPoem/index.html" width="80%" height="80%"></iframe>
+          <p>I ran into a glitch in Google's reverse image search, that suggested keywords to the images I was searching with that were not related to the image in any way. From that I created a guide to create Dada poems with the help of Google. The video
+            is an example of an result from the guide</p>
+        </div>
+        <div class="example" id="Div6" style="display: none">
+          <h1>So Close (So far)</h1>
+          <iframe src="https://player.vimeo.com/video/220712655?autoplay=0&color=ffffff&title=0&byline=0&portrait=0" width="80%" height="80%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        </div>
+      </div>
+
+
+    </div>
+
+</body>
+
+</html>
