@@ -1,4 +1,4 @@
-var divs = ["Div1", "Div2", "Div3", "Div4","Div5","Div6","Div7","Div8","Div9","Div10","Div11","Div12","Div13"];
+var divs = ["Div1", "Div2", "Div3", "Div4","Div5","Div6","Div7","Div8","Div9","Div10","Div11","Div12","Div13","Div14","Div15","Div16"];
    var visibleDivId = null;
    function divVisibility(divId) {
      if(visibleDivId === divId) {
